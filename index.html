@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            Nabil
+        </span>
+        <span class="toggle-menu" onclick="openMenu()">
+            <i class="fa-regular fa-bars"></i>
+        </span>
+        <nav id="mobile-navigation" class="mobile-navigation hide">
+            <ul class="menu">
+                <li>
+                    <a onclick="closeMenu()"><i class="fa-regular fa-xmark"></i></a>
+                </li>
+                <li><a href="#" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="primary-navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="bg-image"></div>
+        
+        <!-- H O M E -->
+        <section id="hero" class="hero">
+            <h1>
+                Hi, I'm Nabil Mahmoor
+                <span>Software Engineering Student</span>
+            </h1>
+            <div class="cta">
+                <a href="#projects">View Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    I'm a student pursuing a degree in the field of Software Engineering at General Sir John Kotelawala
+                    Defence University, who is passionate about building innovative solutions and exploring the
+                    intersection
+                    of technology and creativity.
+                </p>
+                <p>
+                    During my academic journey, I’ve worked on projects like "Real-time Data Visualization", "Smart Home
+                    Automation System", which have enhanced my skills in a handful of tools and technologies.
+                </p>
+                <p>
+                    Beyond coursework, I actively participate in various competitions such as "IEEE Xtreme", "WSO2 -
+                    Innovate with Ballerina", where I was given the opportunity to sharpen my problem-solving and
+                    teamwork
+                    abilities.
+                </p>
+                <p>
+                    I’m eager to apply my knowledge to real-world challenges and continuously learn about emerging
+                    technologies.
+                </p>
+                <p>Let’s connect and share ideas!</p>
+            </div>
+            <div class="profile">
+                <img src="assets/profile-full.jpg" alt="profile picture">
+            </div>
+        </section>
+
+        <!-- P R O J E C T S -->
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="project-gallery">
+
+                <div class="project-card">
+                    <img src="assets/project1.png" alt="project thumbnail">
+                    <div class="project-info">
+                        <h3>StokPic</h3>
+                        <p>A website to search for images</p>
+                        <div class="links">
+                            <a href="https://github.com/nabil-mahmoor/StokPic">
+                                <i class="fa-brands fa-github"></i>
+                                View Repo
+                            </a>
+                            <a href="https://stokpic.netlify.app/">
+                                <i class="fa-regular fa-globe"></i>
+                                View Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="assets/project2.jpg" alt="project thumbnail">
+                    <div class="project-info">
+                        <h3>Untitled UI</h3>
+                        <p>A web design template for a blog site</p>
+                        <div class="links">
+                            <a href="https://github.com/nabil-mahmoor/Untitled-UI">
+                                <i class="fa-brands fa-github"></i>
+                                View Repo
+                            </a>
+                            <a href="https://untitled-ui.netlify.app/">
+                                <i class="fa-regular fa-globe"></i>
+                                View Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="assets/project3.png" alt="project thumbnail">
+                    <div class="project-info">
+                        <h3>FilmScope</h3>
+                        <p>A website to search for movies</p>
+                        <div class="links">
+                            <a href="https://github.com/nabil-mahmoor/FilmScope">
+                                <i class="fa-brands fa-github"></i>
+                                View Repo
+                            </a>
+                            <a href="https://filmscop.netlify.app/">
+                                <i class="fa-regular fa-globe"></i>
+                                View Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- S K I L L S -->
+        <section id="skills" class="skills">
+            <h2>My Skills</h2>
+            <div>
+                <div class="languages">
+                    <h3>Languages</h3>
+                    <div class="line"></div>
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i></li>
+                        <li><i class="fa-brands fa-css3-alt"></i></li>
+                        <li><i class="fa-brands fa-square-js"></i></li>
+                        <li><i class="fa-brands fa-python"></i></li>
+                        <li><i class="fa-brands fa-java"></i></li>
+                        <li><i class="fa-brands fa-dart-lang"></i></li>
+                        <li><i class="fa-brands fa-php"></i></li>
+                        <li><i class="fa-solid fa-database"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-c"></i></li>
+                    </ul>
+                </div>
+                <div class="frameworks">
+                    <h3>Frameworks</h3>
+                    <div class="line"></div>
+                    <div>
+                        <div>
+                            <h4>Frontend</h4>
+                            <ul>
+                                <li class="react"><i class="fa-brands fa-react"></i></li>
+                                <li class="flutter"><i class="fa-brands fa-flutter"></i></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Backend</h4>
+                            <ul>
+                                <li class="nodejs"><i class="fa-brands fa-node-js"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- C O N T A C T -->
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <div>
+                <form action="form.php" method="post">
+                    <label>
+                        <!-- <span>Name</span> -->
+                        <input type="text" name="name" placeholder="Name">
+                    </label>
+                    <label>
+                        <!-- <span>Email</span> -->
+                        <input type="text" name="email" placeholder="Email">
+                    </label>
+                    <label>
+                        <!-- <span>Message</span> -->
+                        <textarea name="message" placeholder="Message"></textarea>
+                    </label>
+                    <button type="submit">Send</button>
+                </form>
+                <div class="info">
+                    <h3>Info</h3>
+                    <p>Feel free to leave a message and I look forward to connecting with you.</p>
+                    <span>
+                        <i class="fa-light fa-envelope"></i>
+                        nabil.mahmoor@gmail.com
+                    </span>
+                    <span>
+                        <i class="fa-light fa-phone"></i>
+                        +94 75 207 3599
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
