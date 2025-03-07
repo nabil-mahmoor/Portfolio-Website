@@ -332,6 +332,7 @@ header {
 
   & ul {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
     margin-inline: auto;
@@ -417,44 +418,9 @@ header {
   color: var(--secondary);
 
   & > div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    max-width: 50rem;
+    margin-inline: auto;
   }
-}
-
-form {
-  width: 100%;
-  margin-inline: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 0.5rem;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 2px solid #ffffff67;
-  transition: ease .5s;
-  color: var(--secondary);
-}
-
-input:focus,
-textarea:focus {
-  border-bottom: 2px solid var(--secondary);
-}
-
-textarea {
-  resize: none;
-}
-
-button:hover {
-  background-color: #000;
-  color: var(--secondary);
 }
 
 .info {
